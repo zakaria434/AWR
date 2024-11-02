@@ -1,0 +1,160 @@
+body {
+  background-image: url("img\'s/BG.png");
+  background-repeat: repeat;
+  background-size: 100%;
+  font-family: 'Noto Kufi Arabic';
+  font-weight: bold;
+  font-size: medium;
+  height: 0;
+  zoom: 0.9; /* Set the initial zoom level to 90% */
+    -moz-transform: scale(0.9); /* Firefox */
+    -webkit-transform: scale(0.9); /* Safari and Chrome */
+    transform: scale(0.9);
+    transform-origin: 0 0; /* Set the transform origin to top-left */
+    width: 111.111%; /* Counteract the scale by increasing width */
+    
+}
+footer{
+  margin-bottom: 1px;
+}
+body nav a{
+  text-decoration: none;
+}
+
+body nav div ul li select{
+  color: black;
+  background-color: rgb(39, 39, 31);
+}
+
+body nav div ul li select option{
+  color: black;
+  background-color: rgb(197, 197, 197);
+}
+nav {
+  background-image: url("img\'s/BG.png");
+  background-repeat: repeat;
+  background-size: 100%;
+  position: static;
+}
+.nav-item a:hover{
+  color: gold;
+  transition: 0.5s;
+}
+#nav-item1 a:hover{
+  color: gold;
+  transition: 0.5s;
+}
+.centre{
+  background-image: url("img's\Cover's\COVER2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bd {
+  padding-top: 230px;
+  padding-bottom: 190px;
+}
+
+
+#current_awr{
+  padding-top: 480px;
+}
+
+#awr{
+  padding-top: 35px;
+}
+
+.slide-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: static;
+}
+
+.image-slider {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.slides-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.img {
+  position: relative;
+  width: 240px;
+  height: 370px;
+  transition: 0.5s;
+}
+
+.button {
+  position: absolute;
+  width: 240px;
+  height: 370px;
+  transition: 0.5s;
+}
+
+#slider-span1:target~.image-slider #img1,
+#slider-span1:target~.image-slider #button-1 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+}
+
+#slider-span2:target~.image-slider #img2,
+#slider-span2:target~.image-slider #button-2 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+}
+
+#slider-span3:target~.image-slider #img3,
+#slider-span3:target~.image-slider #button-3 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+}
+
+#slider-span4:target~.image-slider #img4,
+#slider-span4:target~.image-slider #button-4 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+}
+
+#slider-span5:target~.image-slider #img5,
+#slider-span5:target~.image-slider #button-5 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+}
+
+#slider-span1:target~.image-slider {
+  left: 20%;
+}
+
+#slider-span2:target~.image-slider {
+  left: 0%;
+}
+
+#slider-span3:target~.image-slider {
+  left: -20%;
+}
+
+#slider-span4:target~.image-slider {
+  left: -20%;
+}
+
+#slider-span5:target~.image-slider {
+  left: -20%;
+}
